@@ -6,10 +6,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootUserApplication implements CommandLineRunner {
+public class SpringBootProducerApplication implements CommandLineRunner {
 
     public static void main(String []args){
-        SpringApplication.run(SpringBootUserApplication.class);
+        SpringApplication.run(SpringBootProducerApplication.class);
     }
 
     @Autowired
